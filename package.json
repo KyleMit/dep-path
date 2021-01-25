@@ -1,0 +1,16 @@
+{
+  "name": "@kylemit/dep-path",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "download-src": "curl -L https://api.github.com/repos/graphql/graphql-js/tarball | tar xz --wildcards --no-anchored 'src/*' --strip-components 1",
+    "create-checklist": "node createChecklist.js",
+    "find-next": "node findNext.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "madge": "^4.0.0"
+  }
+}
