@@ -18,6 +18,8 @@ npm i
     npm run download-src
     ```
 
+    or copy whatever you want to analyze into the `src folder` at the project root
+
 2. Create checklist of all files
 
     ```bash
